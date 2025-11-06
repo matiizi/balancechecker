@@ -1,0 +1,48 @@
+{
+  "users": {
+    "ц": {
+      "username": "ц",
+      "passwordHash": "ц",
+      "wallet": {
+        "transactions": [],
+        "budgets": {}
+      }
+    },
+    "й": {
+      "username": "й",
+      "passwordHash": "й",
+      "wallet": {
+        "transactions": [
+          {
+            "amount": 10000.0,
+            "description": "зпха капнула",
+            "type": "INCOME",
+            "category": "Зарплата"
+          },
+          {
+            "amount": 7000.0,
+            "description": "ставка не зашла",
+            "type": "EXPENSE",
+            "category": "развлечения"
+          },
+          {
+            "amount": 2000.0,
+            "description": "опять не зашла(((",
+            "type": "EXPENSE",
+            "category": "развлечения"
+          }
+        ],
+        "budgets": {
+          "развлечения": {
+            "name": "развлечения",
+            "budgetLimit": 5000.0
+          },
+          "еда": {
+            "name": "еда",
+            "budgetLimit": 3000.0
+          }
+        }
+      }
+    }
+  }
+}
